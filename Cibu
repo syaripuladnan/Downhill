@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kotak Warna Hijau</title>
+  <style>
+    .kotak-hijau {
+      width: 345p;
+      height: 500vh;
+      background-color: green;
+      position: relative;
+    }
+    .kotak-merah1 {
+      width: 345px;
+      height: 90px;
+      background-color: red;
+      position: absolute;
+      overflow: hidden;
+      top: 8px;
+    }
+    .kotak-merah2 {
+      width: 345px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+      top: 100px;
+    }
+    .kotak-merah1 img {
+      width: 345px;
+      height: 90px;
+      object-fit: cover;
+    }
+    .teks {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: yellow;
+      font-size: 50px;
+      text-align: center;
+      font-family: 'Latin Modern Roman', 'Latin', serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="kotak-hijau">
+    <div class="kotak-merah1">
+      <img src="turing.jpg">
+      <div class="teks">Downhill</div>
+    </div>
+    <div class="kotak-merah2"></div>
+  </div>
+</body>
+</html>
